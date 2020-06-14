@@ -13,6 +13,10 @@ app.get('/',(req,res)=>{
     })
 })
 
-app.post('/',())
+app.post('/',(req,res)=>{
+    res.render('main',{
+        
+    })
+})
 
 app.listen(3000);
