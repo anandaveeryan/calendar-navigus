@@ -9,13 +9,16 @@ app.set('views','./views')
 
 app.get('/',(req,res)=>{
     res.render('index',{
-
     })
 })
 
 app.post('/',(req,res)=>{
     res.render('main',{
-        
+    })
+})
+
+app.post('/addtime',(req,res)=>{
+    res.render('success',{ 
     })
 })
 
